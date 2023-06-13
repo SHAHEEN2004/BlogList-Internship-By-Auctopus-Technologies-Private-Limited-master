@@ -1,0 +1,56 @@
+.add-post-container {
+    background-image: url(https://colibriwp.com/blog/wp-content/uploads/2021/06/5243028.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .add-post-card {
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-post-card label {
+    margin-top: 10px;
+  }
+  
+  .add-post-card input,
+  .add-post-card textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .add-post-card input:focus,
+  .add-post-card textarea:focus {
+    outline: none;
+  }
+  
+  .add-post-card button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-post-card button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .add-post-card button:disabled {
+    background-color: gray;
+    cursor: default;
+  }
+  textarea {
+    display: block;
+    margin: 0 auto;
+  }
